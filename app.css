@@ -4,7 +4,10 @@ header{
     min-height: 700px;  
     background-position: center;
 }
-
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
 @media screen and (max-width: 670px){
     header{
         min-height: 300px;
