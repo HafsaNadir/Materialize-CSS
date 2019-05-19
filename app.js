@@ -4,4 +4,7 @@ $(document).ready(function(){
     $('.scrollspy').scrollSpy();
     $('.parallax').parallax();
     $('.tabs').tabs();
+    $('.datepicker').datepicker({
+        disableWeekends: true
+    });
 });
