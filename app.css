@@ -4,6 +4,12 @@ header{
     min-height: 700px;  
     background-position: center;
 }
+.tabs .indicator{
+    background-color: darkslategray;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
+}   
 .section{
     padding-top: 4vw;
     padding-bottom: 4vw;
