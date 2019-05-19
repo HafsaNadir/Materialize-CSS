@@ -1,0 +1,12 @@
+header{
+    background: url(img/Night-Sky-Stars-Background.jpg);
+    background-size: cover;
+    min-height: 700px;  
+    background-position: center;
+}
+
+@media screen and (max-width: 670px){
+    header{
+        min-height: 300px;
+    }
+}
